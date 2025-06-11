@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: grey;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
+}
+
+.nav-links li {
+  cursor: pointer;
+  color: #ecf0f1;
+}
+
+.nav-links li:hover {
+  text-decoration: underline;
+}
+
+.content {
+  padding: 2rem;
+  background: black;
+  margin: 1rem;
+  border-radius: 8px;
+}
+
+.calculator-form {
+  align-self: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.calculator-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
